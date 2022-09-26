@@ -6,7 +6,7 @@ const path = require("path");
 const generateReadme = require("./utils/generateReadme");
 
 // TODO: Create an array of questions for user input
-const questions = () => [
+const questions = [
         {
             type: 'input',
             name: 'title',
@@ -16,11 +16,6 @@ const questions = () => [
             type: 'input',
             name: 'description',
             message: "What would you like your description to be?",
-        },
-        {
-            type: 'input',
-            name: 'Table of Contents',
-            message: "What is your Table of Contents?",
         },
         {
             type: 'input',
@@ -78,13 +73,15 @@ return inquirer.prompt(questions);
 // TODO: Create a function to write README file
 function writeToFile(data) {
     return new Promise((resolve, reject) => {
+        fs.writeFile("./Output/README.md", data, (err) => {
         if (err) {
             reject(err);
             return;
         }
         resolve();
+});
+});
 }
-)};
 
 // TODO: Create a function to initialize app
 function init() {
@@ -92,8 +89,8 @@ function init() {
     .then((answers) => {
         return generateReadme(answers);
     })
-    .then ((readmeMarkdown) => {
-        return writeToFile(readmeMarkdown);
+    .then ((readmeWrite) => {
+        return writeToFile(readmeWrite);
     })
     .then((response) => {
         console.log(response);
