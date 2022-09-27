@@ -1,9 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const path = require("path");
-
-const generateReadme = require("./utils/generateReadme");
+const generateReadme = require("./utils/generateReadme.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -92,10 +90,7 @@ function init() {
     .then ((readmeWrite) => {
         return writeToFile(readmeWrite);
     })
-    .then((response) => {
-        console.log(response);
-    })
-.catch(err => {
+    .catch(err => {
     console.log(err);
 });
 }

@@ -9,16 +9,16 @@ function generateReadme(answers) {
 ${answers.description}
 
 ## Table of Contents
--[Description](#description)
--[Installation](#install)
--[Usage](#usage)
--[License](#license)
--[Contributing](#contribution)
--[Tests](#test)
--[Questions](#questions)
+* [Description](#description)
+* [Installation](#install)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contribution)
+* [Tests](#test)
+* [Questions](#questions)
 
 ## Installation
-${answers.installation}
+${answers.install}
 
 ## Usage
 ${answers.usage}
