@@ -10,14 +10,14 @@ ${answers.description}
 
 ## Table of Contents
 * [Description](#description)
-* [Installation](#install)
+* [Install](#install)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contribution)
-* [Tests](#test)
+* [Contribution](#contribution)
+* [Test](#test)
 * [Questions](#questions)
 
-## Installation
+## Install
 ${answers.install}
 
 ## Usage
@@ -28,10 +28,10 @@ ${answers.usage}
 <br />
 This application is covered by the ${answers.license} license.
 
-## Contributing
+## Contribution
 ${answers.contribution}
 
-## Tests
+## Test
 ${answers.test}
 
 ## Questions

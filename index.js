@@ -30,7 +30,7 @@ const questions = [
             name: 'license',
             message: "What licenses are needed?",
             choices: [
-                " MIT",
+                "MIT",
                 "Apache",
                 "GNU",
                 "ISC",

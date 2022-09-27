@@ -4,36 +4,36 @@
   ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
 
 ## Description
-Make Crispy Bacon
+Eat the bacon!
 
 ## Table of Contents
 * [Description](#description)
-* [Installation](#install)
+* [Install](#install)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contribution)
-* [Tests](#test)
+* [Contribution](#contribution)
+* [Test](#test)
 * [Questions](#questions)
 
-## Installation
-Fry the bacon in the pan!
+## Install
+fry your bacon
 
 ## Usage
-Eat your crispy bacon.
+heat bacon in pan
 
 ## License
 ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
 <br />
 This application is covered by the Apache license.
 
-## Contributing
-Add bacon to pan, apply heat.
+## Contribution
+bacon, pan, heat
 
-## Tests
-Try a little bacon first. Check it's cooked.
+## Test
+try it
 
 ## Questions
-Email me about your bacon.<br />
+eat the bacon<br />
 <br />
 Find me on Github: [awchen85](https://github.com/awchen85)
 Email me with any questions: awchen85@gmail.com <br />
